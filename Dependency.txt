@@ -1,0 +1,44 @@
+Dependencies
+
+Step By Step
+
+Step 1: Download
+Binary zip archive = https://maven.apache.org/download.cgi
+
+Step 2: Extract 
+Extract All = Binary zip archive
+
+step 3: Environment Variables
+Add Path = C:\Program Files\apache-maven-3.9.9\bin
+
+Step 4: Dependency
+ Add Dependency in pom.xml
+
+Step 5: open CMD and set the Path Be sure the you see the pom.xml
+example" cd C:\Users\jeric cabay\Documents\eclipse\Eclipse Directory\api_projects 
+
+step 6: 
+type Mvn clean install
+
+
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>api_projects</groupId>
+  <artifactId>api_projects</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+//Twitter API
+
+  <dependencies>
+    <dependency>
+      <groupId>org.twitter4j</groupId>
+      <artifactId>twitter4j-core</artifactId>
+      <version>4.0.7</version>
+    </dependency>
+  </dependencies>
+</project>
+"
